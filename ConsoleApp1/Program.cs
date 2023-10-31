@@ -6,7 +6,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Enter username!");
+            var username = Console.ReadLine();
+            Console.WriteLine($"Hi, {username}");
+
         }
     }
 }
